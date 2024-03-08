@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 export const transactionsApi = createApi({
   reducerPath: 'transactionsApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://walletbackendteamproject-production.up.railway.app/',
+    baseUrl: 'https://walletbackend.up.railway.app/',
     prepareHeaders: (headers, { getState }) => {
       const token = getState().userInformation.token;
       if (token) {
