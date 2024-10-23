@@ -1,3 +1,3 @@
-const BACK_END = 'https://wallet-backand-team-project.herokuapp.com';
+const BACK_END = 'https://wallet-backend-sage.vercel.app';
 
 export { BACK_END };
